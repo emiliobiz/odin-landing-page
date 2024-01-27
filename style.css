@@ -71,6 +71,8 @@ a {
     background: #3882f6;
     border-style: none;
     color: white;
-    padding: 5px 25px;
+    padding: 8px 25px;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
 }
