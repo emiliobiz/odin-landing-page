@@ -1,8 +1,12 @@
 body {
     font-family: "Roboto";
     background: #1F2937;
-    padding-left: 15%;
-    padding-right: 15%;   
+    margin: 0;
+}
+
+.second-part, .header, .hero-container, .third-part {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 li {
@@ -39,6 +43,7 @@ a {
   justify-content: space-around;
   display: flex;
   gap: 60px;
+  margin-bottom: 100px;
 }
 
 .image {
@@ -75,4 +80,62 @@ a {
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
+}
+
+
+.second-part {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background:white;
+  }
+  
+.info {
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: grey;
+  }
+
+.card-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    outline: 5px solid #3882f6;
+}
+
+.third-part {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.third-part p {
+    text-align: end;
+    font-weight: bold;
+    padding-right: 10%;
+    font-size: 22px;
 }
