@@ -144,8 +144,8 @@ h2 {
 
 .fourth-part {
     background: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .fourth-part .container {
@@ -178,4 +178,12 @@ h2 {
     margin-block-start: 0;
     font-size: 18px;
     color: whitesmoke
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
